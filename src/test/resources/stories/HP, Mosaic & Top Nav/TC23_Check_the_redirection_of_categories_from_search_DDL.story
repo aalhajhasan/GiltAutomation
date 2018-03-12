@@ -1,0 +1,5 @@
+Scenario: TC23_Check_the_redirection_of_categories_from_search_DDL
+Given I am on Featured page
+When I click on Top_Nav_Search_Section
+And I choose Top_Nav_Category_Suggestion
+Then search_result_page should display

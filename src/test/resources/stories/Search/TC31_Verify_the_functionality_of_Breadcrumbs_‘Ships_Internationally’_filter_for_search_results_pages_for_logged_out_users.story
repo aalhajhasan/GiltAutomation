@@ -1,0 +1,5 @@
+Scenario: TC31_Verify_the_functionality_of_Breadcrumbs_‘Ships_Internationally’_filter_for_search_results_pages_for_logged_out_users
+Given I am on Featured page
+When I hover at Top_Nav_Store_Mosaic and choose Category_link
+And I click on Ships_Internationally
+Then Ships_Internationally_Breadcrumbs should display

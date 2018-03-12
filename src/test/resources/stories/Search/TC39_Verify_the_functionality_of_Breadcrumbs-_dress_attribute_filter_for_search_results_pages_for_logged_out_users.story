@@ -1,0 +1,6 @@
+Scenario: TC39_Verify_the_functionality_of_Breadcrumbs-_dress_attribute_filter_for_search_results_pages_for_logged_out_users
+Given I am on Featured page
+When I hover at Top_Nav_Store_Mosaic and choose Dresses_Category
+And I randomly click on the displayed Dress_Attribute
+And I randomly click on the displayed Dress_Attributes_Values
+Then Dress_Attributes_Values_Breadcrumbs Should match with breadcrumb

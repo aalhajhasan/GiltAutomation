@@ -1,0 +1,5 @@
+Scenario: TC29_Verify_the_functionality_of_Breadcrumbs_‘Returnable_Items_Only’_filter_for_search_results_pages_for_logged_out_users
+Given I am on Featured page
+When I hover at Top_Nav_Store_Mosaic and choose Category_link
+And I click on Returnable_Items_Only
+Then Returnable_Breadcrumbs should display
